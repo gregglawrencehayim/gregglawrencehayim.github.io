@@ -15,7 +15,8 @@ body {
 body {
    position: relative;
 }
-body: after {
+
+body after {
     content: "";
     display: block;
     position: absolute;
