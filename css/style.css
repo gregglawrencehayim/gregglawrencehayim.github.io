@@ -12,10 +12,6 @@ body {
 	margin: 2em auto;
 }
 
-body {
-   position: relative;
-}
-
  body {
  	position: relative;}body:after {
     content : "";
