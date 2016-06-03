@@ -86,7 +86,9 @@ nav li {
 	width: 124px;
 	padding: 10px 0;
 	float: left;
-	outline: 3px solid #222;
+	outline: 3px solid #222
+	text-align: center;
+	line-height: 6em
 }
 
 nav a:hover {
