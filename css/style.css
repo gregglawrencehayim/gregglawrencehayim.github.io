@@ -86,6 +86,7 @@ nav li {
 	width: 124px;
 	padding: 10px 0;
 	float: left;
+	outline: 3px solid #222;
 }
 
 nav a:hover {
