@@ -14,14 +14,14 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url('images/FamilyTree.jpg');  
+    background-image: url('../images/FamilyTree.jpg');  
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
     width: 100%;
     height: 100%;
-    opacity : 0.2;
     z-index: -1;
+    background-size: cover;
 }
 
 h1 {
@@ -44,7 +44,7 @@ h2 {
 h1,h2 {
 	text-transform: uppercase;
 	display: inline-block;
-	border-bottom: 4 px solid black;
+	border-bottom: 4px solid black;
 	font-weight: 800;
 }
 
@@ -69,7 +69,7 @@ nav {
 	font-size: 18px
 	margin: 10px;
 /*	border: 10px black solid;*/
-	float:right;
+	/*float:right;*/
 }
 
 
@@ -77,19 +77,19 @@ nav li {
 	background-color: #FF7900;
 	color: white;
 	text-decoration: none;
-	margin-left: 10px;
-	margin-right: 1.8em;
+	/*margin-left: 10px;
+	margin-right: 1.8em;*/
 	color: white;
 	display: inline-block;
-	width: 124px;
-	padding: 10px 0;
-	float: left;
-	outline: 3px solid #222
+	width: auto;
+	padding: 10px 10px;
+	/*float: left;*/
+	outline: 3px solid #222;
 	text-align: center;
 	line-height: 6em
 }
 
-nav a: hover {
+nav a:hover {
 	background-color: red;
 }
 
